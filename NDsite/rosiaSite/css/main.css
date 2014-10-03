@@ -5,7 +5,15 @@
    ========================================================================== */
 
 
+.hidden {
+	display: none;
 
+}
+
+.hidden Bio {
+	display: inline;
+	border: 5px solid yellow;
+}
 
 
 
