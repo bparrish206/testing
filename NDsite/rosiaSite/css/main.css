@@ -4,18 +4,29 @@
    Author's custom styles
    ========================================================================== */
 
-
-.hidden {
-	display: none;
-
+.button {
+  text-shadow: 0 1px 0 #fff;
+  background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+  background-image:         linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #dbdbdb;
+  border-color: #ccc;
+  padding: 8px 8px 8px 8px;
+  margin: :10px 10px 10px 10px;
 }
 
-.hidden Bio {
-	display: inline;
-	border: 5px solid yellow;
+.Bio {
+	display: inline-block;
+	border: 2px solid teal;
+	padding: 25px;
 }
 
-
+.bioTxt {
+  text-align: center;
+  padding: 15px;
+}
 
 
 
