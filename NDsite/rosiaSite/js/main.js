@@ -7,6 +7,7 @@ $(document).ready(function(){
 		$('.Bio').show(2000);
 		} else{$('.Bio').hide('slow')}
 	});
+
 });
 
 

@@ -7,23 +7,79 @@ body {
 	background-color: #777777;
 	text-align: center;
 	color: #eeeebb;
-	padding: 15px 0 15px 0;
 	border: 1px solid #eeeeee;
+	border-radius: 25px;
+	margin: 0 100px 0 100px;
+
+}
+.header h2, p {
+	line-height: 5px;
 }
 
 h1 {
-	
+	text-shadow: 1px 0px #fff, 0px 1px #fff, 2px 1px #fff, 1px 2px #cff;
+	color: #0000dd;
+	text-decoration: underline;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 8px;
 }
 
 .mainContent {
 	background: #ddeeff;
+	border-radius: 17px;
 	text-align: center;
 	padding: 10px 0 45px 0;
 	margin: 15px auto 15px auto;
-	width: 700px;
+	width: 850px;
 	border: 5px solid #eeeebb;
 }
 
 label, type[submit] {
 	display: block;
+}
+
+.sun {
+	margin-left: 15px;
+}
+
+.navBar {
+	background: #eeeeee;
+	padding: .5 0 .5 0;
+}
+
+.navBar li {
+	display: inline-block;
+	text-decoration: none;
+	background: #0000dd;
+	margin: 0 2px 0 2px 0;
+	padding: 2px 4px 2px 4px;
+	border-radius: 15px;
+}
+
+.navBar li a {
+	color: white;
+}
+
+.navBar li:hover {
+	background: #cccc00;
+	color:#3333dd;
+}
+
+.formTitle {
+	color: #ff33ff;
+	font-size: 32px;
+	margin-top: 5px;
+}
+
+input[type=text] {
+	padding: 5px 0 5px 0;
+}
+
+label {
+	padding: 10px 0 10px 0;
+}
+
+.basicInfo {
+	border: 2px dashed silver;
 }
