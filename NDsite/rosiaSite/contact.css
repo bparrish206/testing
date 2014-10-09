@@ -4,9 +4,9 @@ body {
 }
 
 .header {
-	background-color: #777777;
+	background-color: #A6CBC9;
 	text-align: center;
-	color: #eeeebb;
+	color: #FCA41A;
 	border: 1px solid #eeeeee;
 	border-radius: 25px;
 	margin: 0 100px 0 100px;
@@ -17,8 +17,8 @@ body {
 }
 
 h1 {
-	text-shadow: 1px 0px #fff, 0px 1px #fff, 2px 1px #fff, 1px 2px #cff;
-	color: #0000dd;
+	text-shadow: 1px 2px 1px #111;
+	color: #FCA41A;
 	text-decoration: underline;
 	font-size: 50px;
 	text-align: center;
@@ -26,13 +26,13 @@ h1 {
 }
 
 .mainContent {
-	background: #ddeeff;
-	border-radius: 17px;
+	background: #A6CBC9;
 	text-align: center;
 	padding: 10px 0 45px 0;
-	margin: 15px auto 15px auto;
-	width: 850px;
-	border: 5px solid #eeeebb;
+	margin: 0 auto 15px auto;
+	width: 750px;
+	border-left: 3px solid #FCA41A;
+	border-right: 3px solid #FCA41A;
 }
 
 label, type[submit] {
@@ -44,17 +44,17 @@ label, type[submit] {
 }
 
 .navBar {
-	background: #eeeeee;
-	padding: .5 0 .5 0;
+	background: #618362;
+	
 }
 
 .navBar li {
 	display: inline-block;
 	text-decoration: none;
-	background: #0000dd;
-	margin: 0 2px 0 2px 0;
-	padding: 2px 4px 2px 4px;
-	border-radius: 15px;
+	background: #0033cc;
+	margin: 0 0 2px 0;
+	padding: 2px 2px 2px 2px;
+	border-style:outset;
 }
 
 .navBar li a {
@@ -62,14 +62,17 @@ label, type[submit] {
 }
 
 .navBar li:hover {
-	background: #cccc00;
-	color:#3333dd;
+	background: #00cc00;
+	color:#00cc00;
 }
 
 .formTitle {
-	color: #ff33ff;
-	font-size: 32px;
+	color: #618362;
+	font-size: 25px;
 	margin-top: 5px;
+	font-family: verdana;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #111;
 }
 
 input[type=text] {
@@ -81,5 +84,8 @@ label {
 }
 
 .basicInfo {
-	border: 2px dashed silver;
+	border: 3px ridge silver;
+	width: 450px;
+	margin: 0	auto 0 auto;
+	padding-bottom: 15px; 
 }
