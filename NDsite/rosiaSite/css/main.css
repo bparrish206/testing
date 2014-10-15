@@ -33,10 +33,9 @@
   padding: 15px;
 }
 .jumbotron{
-  background: url(http://www.curanaturalehealing.com/images/what-is-naturopathy2.jpg) no-repeat center;
-  background-size: 300px;
+  background-size: 200px;
   background-color: #eeeeee;
-  margin-left: 75px; 
+  margin-left: 75px;
 }
 .clickMe {
   text-shadow: 0 1px 0 #fff;
@@ -55,12 +54,3 @@
   background: #ffff22;
   color: #00eebb;
 }
-
-
-
-
-
-
-
-
-

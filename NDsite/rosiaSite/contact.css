@@ -39,22 +39,17 @@ label, type[submit] {
 	display: block;
 }
 
-.sun {
-	margin-left: 15px;
-}
 
 .navBar {
 	background: #618362;
-	
+
 }
 
 .navBar li {
 	display: inline-block;
 	text-decoration: none;
-	background: #0033cc;
 	margin: 0 0 2px 0;
 	padding: 2px 2px 2px 2px;
-	border-style:outset;
 }
 
 .navBar li a {
@@ -84,8 +79,21 @@ label {
 }
 
 .basicInfo {
-	border: 3px ridge silver;
+	border: 3px ridge #FCA41A;;
 	width: 450px;
 	margin: 0	auto 0 auto;
-	padding-bottom: 15px; 
+	padding-bottom: 15px;
+}
+
+.fade {
+  position: absolute;
+  top: 100px
+  left: 100px
+}
+
+.fade div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
